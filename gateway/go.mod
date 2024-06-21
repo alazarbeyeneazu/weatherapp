@@ -3,7 +3,7 @@ module github.com/alazarbeyeneazu/weatherapp/gateway
 go 1.22.2
 
 require (
-	github.com/alazarbeyeneazu/weatherapp/common v0.0.0-20240621080251-34a5309d8c9f
+	github.com/alazarbeyeneazu/weatherapp/common v0.0.0-20240621082207-0a05ec00378a
 	github.com/gin-gonic/gin v1.10.0
 	github.com/google/uuid v1.6.0
 	github.com/spf13/viper v1.19.0

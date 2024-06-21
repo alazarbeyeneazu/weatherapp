@@ -1,6 +1,7 @@
 package initiator
 
 import (
+	"fmt"
 	"log"
 	"net"
 	"os"
@@ -42,6 +43,7 @@ func Init() {
 
 	// initializing grpc server
 	grpcServer := grpc.NewServer()
+	logger.Info(fmt.Sprintf("auth service start at  %s", viper.GetString("grpcAddr")))
 	listen, err := net.Listen("tcp", viper.GetString("grpcAddr"))
 	if err != nil {
 		log.Fatal(err)

@@ -22,3 +22,6 @@ cd weatherapp
 
 ```sh
 docker-compose up -d 
+
+```
+![Screenshot from 2024-06-21 14-38-06](https://github.com/alazarbeyeneazu/weatherapp/assets/107508106/095e9e34-8630-4e59-8c30-4be4935ec43a)

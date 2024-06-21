@@ -26,7 +26,18 @@ services:
       - db  
     networks:
       - weather-network  
-
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "3000:3000"  
+    depends_on:
+      - db  
+      - gateway
+      - auth
+      - weather
+    networks:
+      - weather-network 
   db:
     image: mongo
     environment:

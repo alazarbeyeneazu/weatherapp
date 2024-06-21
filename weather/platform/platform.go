@@ -3,7 +3,7 @@ package platform
 import (
 	"context"
 
-	"github.com/alazarbeyeneazu/common/models"
+	"github.com/alazarbeyeneazu/weatherapp/common/models"
 )
 
 type WeatherAPI interface {

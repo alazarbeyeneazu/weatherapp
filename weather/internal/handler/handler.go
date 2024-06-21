@@ -3,9 +3,10 @@ package handler
 import (
 	"context"
 
-	pb "github.com/alazarbeyeneazu/common/api"
-	"github.com/alazarbeyeneazu/common/models"
-	"github.com/alazarbeyeneazu/weather/internal/module"
+	pb "github.com/alazarbeyeneazu/weatherapp/common/api"
+
+	"github.com/alazarbeyeneazu/weatherapp/common/models"
+	"github.com/alazarbeyeneazu/weatherapp/weather/internal/module"
 	"google.golang.org/grpc"
 )
 

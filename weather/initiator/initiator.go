@@ -5,8 +5,8 @@ import (
 	"net"
 	"os"
 
-	"github.com/alazarbeyeneazu/weather/internal/handler"
-	weatherapi "github.com/alazarbeyeneazu/weather/platform/weatherAPI"
+	"github.com/alazarbeyeneazu/weatherapp/weather/internal/handler"
+	weatherapi "github.com/alazarbeyeneazu/weatherapp/weather/platform/weatherAPI"
 	"github.com/spf13/viper"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"

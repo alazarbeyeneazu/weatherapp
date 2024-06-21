@@ -3,8 +3,8 @@ package storage
 import (
 	"context"
 
-	"github.com/alazarbeyeneazu/authservice/platform/utils"
-	"github.com/alazarbeyeneazu/common/models"
+	"github.com/alazarbeyeneazu/weatherapp/auth/platform/utils"
+	"github.com/alazarbeyeneazu/weatherapp/common/models"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/mongo"

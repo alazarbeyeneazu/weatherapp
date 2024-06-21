@@ -1,6 +1,6 @@
 package main
 
-import "github.com/alazarbeyeneazu/authservice/initiator"
+import initiator "github.com/alazarbeyeneazu/weatherapp/auth/initiator"
 
 func main() {
 	initiator.Init()

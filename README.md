@@ -29,4 +29,4 @@ docker-compose up -d
 http://localhost:3000 
 
 ```
-![Screenshot from 2024-06-21 14-38-06](https://github.com/alazarbeyeneazu/weatherapp/assets/107508106/095e9e34-8630-4e59-8c30-4be4935ec43a)
+![Screenshot from 2024-06-21 16-25-41](https://github.com/alazarbeyeneazu/weatherapp/assets/107508106/5fc50820-36c5-4db5-936c-776adb4c9a97)

@@ -1,8 +1,8 @@
 package initiator
 
 import (
-	md "github.com/alazarbeyeneazu/weather/internal/module"
-	"github.com/alazarbeyeneazu/weather/platform"
+	md "github.com/alazarbeyeneazu/weatherapp/weather/internal/module"
+	"github.com/alazarbeyeneazu/weatherapp/weather/platform"
 	"go.uber.org/zap"
 )
 

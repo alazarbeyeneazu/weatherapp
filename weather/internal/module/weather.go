@@ -3,8 +3,8 @@ package module
 import (
 	"context"
 
-	"github.com/alazarbeyeneazu/common/models"
-	"github.com/alazarbeyeneazu/weather/platform"
+	"github.com/alazarbeyeneazu/weatherapp/common/models"
+	"github.com/alazarbeyeneazu/weatherapp/weather/platform"
 	"go.uber.org/zap"
 )
 

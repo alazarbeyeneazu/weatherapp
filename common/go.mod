@@ -1,10 +1,11 @@
-module github.com/alazarbeyeneazu/common
+module github.com/alazarbeyeneazu/weatherapp/common
 
 go 1.22.2
 
 require (
 	github.com/gin-gonic/gin v1.10.0
 	github.com/go-ozzo/ozzo-validation/v4 v4.3.0
+	go.mongodb.org/mongo-driver v1.15.1
 	google.golang.org/grpc v1.64.0
 	google.golang.org/protobuf v1.34.2
 )

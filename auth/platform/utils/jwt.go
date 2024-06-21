@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/alazarbeyeneazu/common/models"
+	"github.com/alazarbeyeneazu/weatherapp/common/models"
 	"github.com/golang-jwt/jwt"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.uber.org/zap"

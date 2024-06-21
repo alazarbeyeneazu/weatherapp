@@ -1,7 +1,7 @@
 package initiator
 
 import (
-	"github.com/alazarbeyeneazu/authservice/internal/storage"
+	"github.com/alazarbeyeneazu/weatherapp/auth/internal/storage"
 	"github.com/spf13/viper"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.uber.org/zap"

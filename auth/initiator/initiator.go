@@ -5,7 +5,7 @@ import (
 	"net"
 	"os"
 
-	"github.com/alazarbeyeneazu/authservice/internal/handler"
+	"github.com/alazarbeyeneazu/weatherapp/auth/internal/handler"
 	"github.com/spf13/viper"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"

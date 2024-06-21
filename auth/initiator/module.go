@@ -1,7 +1,7 @@
 package initiator
 
 import (
-	md "github.com/alazarbeyeneazu/authservice/internal/module"
+	md "github.com/alazarbeyeneazu/weatherapp/auth/internal/module"
 	"github.com/spf13/viper"
 	"go.uber.org/zap"
 )

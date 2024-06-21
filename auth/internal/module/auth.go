@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/alazarbeyeneazu/authservice/internal/storage"
-	"github.com/alazarbeyeneazu/authservice/platform/utils"
-	"github.com/alazarbeyeneazu/common/models"
+	"github.com/alazarbeyeneazu/weatherapp/auth/internal/storage"
+	"github.com/alazarbeyeneazu/weatherapp/auth/platform/utils"
+	"github.com/alazarbeyeneazu/weatherapp/common/models"
 	"go.uber.org/zap"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

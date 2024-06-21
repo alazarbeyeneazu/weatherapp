@@ -1,9 +1,9 @@
 package initiator
 
 import (
-	"github.com/alazarbeyeneazu/gateway/internals/handlers"
-	"github.com/alazarbeyeneazu/gateway/internals/handlers/auth"
-	"github.com/alazarbeyeneazu/gateway/internals/handlers/weather"
+	"github.com/alazarbeyeneazu/weatherapp/gateway/internals/handlers"
+	"github.com/alazarbeyeneazu/weatherapp/gateway/internals/handlers/auth"
+	"github.com/alazarbeyeneazu/weatherapp/gateway/internals/handlers/weather"
 	"go.uber.org/zap"
 )
 

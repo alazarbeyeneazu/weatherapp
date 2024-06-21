@@ -3,7 +3,8 @@ package initiator
 import (
 	"log"
 
-	pb "github.com/alazarbeyeneazu/common/api"
+	pb "github.com/alazarbeyeneazu/weatherapp/common/api"
+
 	"github.com/spf13/viper"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"

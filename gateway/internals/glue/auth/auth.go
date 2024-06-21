@@ -3,8 +3,8 @@ package auth
 import (
 	"net/http"
 
-	"github.com/alazarbeyeneazu/gateway/internals/glue/routing"
-	"github.com/alazarbeyeneazu/gateway/internals/handlers"
+	"github.com/alazarbeyeneazu/weatherapp/gateway/internals/glue/routing"
+	"github.com/alazarbeyeneazu/weatherapp/gateway/internals/handlers"
 	"github.com/gin-gonic/gin"
 
 	"go.uber.org/zap"

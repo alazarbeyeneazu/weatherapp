@@ -3,10 +3,11 @@ package weather
 import (
 	"net/http"
 
-	pb "github.com/alazarbeyeneazu/common/api"
-	"github.com/alazarbeyeneazu/gateway/internals/glue/routing"
-	"github.com/alazarbeyeneazu/gateway/internals/handlers"
-	"github.com/alazarbeyeneazu/gateway/internals/handlers/middleware"
+	pb "github.com/alazarbeyeneazu/weatherapp/common/api"
+
+	"github.com/alazarbeyeneazu/weatherapp/gateway/internals/glue/routing"
+	"github.com/alazarbeyeneazu/weatherapp/gateway/internals/handlers"
+	"github.com/alazarbeyeneazu/weatherapp/gateway/internals/handlers/middleware"
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
 )

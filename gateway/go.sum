@@ -1,5 +1,5 @@
-github.com/alazarbeyeneazu/weatherapp/common v0.0.0-20240621080251-34a5309d8c9f h1:MWkSjq4xnsDULRMQHsnvyWxzvMINTOHFV0W2t6B1w1c=
-github.com/alazarbeyeneazu/weatherapp/common v0.0.0-20240621080251-34a5309d8c9f/go.mod h1:7L9kFWe7e21mI+IvLYSuFfKKar4D1JgNpLzNhOWtYYk=
+github.com/alazarbeyeneazu/weatherapp/common v0.0.0-20240621082207-0a05ec00378a h1:sh2RA862kLaj0WRvr5VOsKxPKrZMG+m350eDLjwVS1A=
+github.com/alazarbeyeneazu/weatherapp/common v0.0.0-20240621082207-0a05ec00378a/go.mod h1:7L9kFWe7e21mI+IvLYSuFfKKar4D1JgNpLzNhOWtYYk=
 github.com/asaskevich/govalidator v0.0.0-20200108200545-475eaeb16496 h1:zV3ejI06GQ59hwDQAvmK1qxOQGB3WuVTRoY0okPTAv0=
 github.com/asaskevich/govalidator v0.0.0-20200108200545-475eaeb16496/go.mod h1:oGkLhpf+kjZl6xBf758TQhh5XrAeiJv/7FRz/2spLIg=
 github.com/bytedance/sonic v1.11.6 h1:oUp34TzMlL+OY1OUWxHqsdkgC/Zfc85zGqw9siXjrc0=

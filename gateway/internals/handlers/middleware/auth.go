@@ -3,7 +3,8 @@ package middleware
 import (
 	"net/http"
 
-	pb "github.com/alazarbeyeneazu/common/api"
+	pb "github.com/alazarbeyeneazu/weatherapp/common/api"
+
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
 )

@@ -3,10 +3,11 @@ package weather
 import (
 	"net/http"
 
-	"github.com/alazarbeyeneazu/common"
-	pb "github.com/alazarbeyeneazu/common/api"
-	"github.com/alazarbeyeneazu/common/models"
-	"github.com/alazarbeyeneazu/gateway/internals/handlers"
+	pb "github.com/alazarbeyeneazu/weatherapp/common/api"
+
+	"github.com/alazarbeyeneazu/weatherapp/common"
+	"github.com/alazarbeyeneazu/weatherapp/common/models"
+	"github.com/alazarbeyeneazu/weatherapp/gateway/internals/handlers"
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
 	"google.golang.org/grpc/codes"

@@ -8,7 +8,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/alazarbeyeneazu/gateway/internals/handlers/middleware"
+	"github.com/alazarbeyeneazu/weatherapp/gateway/internals/handlers/middleware"
 	"github.com/gin-gonic/gin"
 	"github.com/spf13/viper"
 	"go.uber.org/zap"

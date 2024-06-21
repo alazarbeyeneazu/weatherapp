@@ -1,5 +1,4 @@
-
-FROM node:14-alpine
+FROM node:22-alpine
 
 WORKDIR /app
 
@@ -8,9 +7,5 @@ RUN npm install
 
 COPY . .
 
-RUN npm run build
-
-EXPOSE 8080
-
-# Define the command to run your app using npm start (replace with your start command if different)
-CMD ["npm", "dev"]
+EXPOSE 3000
+CMD ["npm", "start"]
